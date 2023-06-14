@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(218, 230, 173);
+  font-family: "Montserrat", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h2 {
+  font-family: 'Monofett', monospace;
+}
+
+#footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2%;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  color: #000000;
+}
+
+.left {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.right {
+  padding-top: 6rem;
+  text-align: center;
+}
+
+.dice {
+  margin: 3rem auto;
+  width: 10rem;
+}
+
+.winner {
+  margin: 1rem auto;
+  font-family: 'Ubuntu', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  color: black;
+  visibility: hidden;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.btn {
+  font-size: 2rem;
+  color: #fff !important;
+  text-transform: uppercase;
+  background: lightcoral;
+  border-radius: 50px;
+  }
+  
+.btn:hover {
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  }
+
+  .image {
+    visibility: hidden;
+  }

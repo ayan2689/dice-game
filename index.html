@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice Game</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <h1 class="title">Dice Game!</h1>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6 left">
+          <h2>Player 1</h2>
+          <div>
+            <img class="dice" src="./images/dice6.png" alt="dice6"/>
+          </div>
+          <h3 class="winner player1">Player 1 Wins!</h3>
+        </div>
+
+        <div class="col-6 right">
+          <h2>Player 2</h2>
+          <div>
+            <img class="dice" src="./images/dice6.png" alt="dice6"/>
+          </div>
+          <h3 class="winner player2">Player 2 Wins!</h3>
+        </div>
+      </div>
+    </div>    
+    
+    <div class="button">
+      <button class="btn" onclick = "rollDice()"><h3>Roll Dice!</h3></button>
+      <img class="image" src="./images/refresh.png" alt="refresh icon" onclick="rePlay()">
+    </div>
+
+    <script src="./index.js"></script>
+
+    <footer>
+      <div id="footer">© 2023 Ayan Sen. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
